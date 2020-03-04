@@ -1,0 +1,53 @@
+.flex {
+    display: flex;
+}
+
+.productBox {
+    width: 75%;
+    height: 100px;
+    background: #FFF 0% 0% no-repeat padding-box; 
+    box-shadow: 0px 2px 4px #00000029;
+    border-radius: 4px;
+    margin-top: 30px;
+    opacity: 1;
+}
+
+
+.productImg {
+    width: 100px;
+    height: 100%;
+}
+
+.productText {
+    flex-direction: column;
+    padding: 25px;
+}
+
+.productName {
+    font-family: Montserrat-Medium;
+    color: #404040;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.productAddress {
+    font-family: Montserrat-Regular;
+    color: #404040;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .productBox { 
+        max-width: 350px;
+        margin: 20px;
+        margin-top: 40px;
+    }
+
+    .productText {
+        flex-direction: column;
+        padding: 15px;
+    }
+ }
+
+
+

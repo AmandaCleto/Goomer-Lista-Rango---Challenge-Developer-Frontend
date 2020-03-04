@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Montserrat-Thin;
+    src: url('../Font-Montserrat/Montserrat-Thin.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('../Font-Montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url('../Font-Montserrat/Montserrat-Medium.ttf');
+}
+
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('../Font-Montserrat/Montserrat-Bold.ttf');
+}
+
+
+.title {
+    text-align: center;
+    font-size: 25px;
+    font-family: Montserrat-Medium;
+    color: #404040;
+    margin-top: 1em;
+}
+

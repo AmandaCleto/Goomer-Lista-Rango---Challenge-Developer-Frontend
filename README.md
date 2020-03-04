@@ -1,3 +1,28 @@
+# Goomer Lista Rango
+## Challenge - Developer Frontend
+
+Começo: 28/02/2020   
+Final:  ??/??/????
+
+Dias não trabalhados: 29/02 e 01/03
+
+Desafios enfrentados:
+
+1°: Como utilizar fontes externas em um arquivo React. 
+Usei a solução 'font-style' do CSS. Primeiro baixei o arquivo.ttf com tema Montserrat do Google Fonts, e acrescentei ao projeto.
+
+2°: A ordem dos produtos no layout. 
+Comecei usando flexbox, porém não deu o resultado esperado, então utilizei Grid para a versão desktop. E mantive o flexbox na versão mobile. Adendo: Não utilizei 'material-ui', pois quis fazer eu mesmo o design.
+
+3º: Utilização de classes ou funções. 
+Meus ultimos estudos em React, apontaram para o uso de funções, por conta disso, mudei o aquivo para Typescript, e acrescentei interfaces.
+
+Dúvidas surgidas:
+
+1°: Quantidade de produtos dispostos em tela. Irá aparecer todos os produtos em uma única página ou em diversas paginas? Se for em uma página somente, os itens irão aparecer conforme eu rodo a pagina, ou todos de uma única vez?
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

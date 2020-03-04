@@ -1,0 +1,16 @@
+.listProducts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    color: #444; 
+}
+
+@media screen and (min-width: 768px) {
+    .listProducts {
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        place-items: center;
+    }
+ }
