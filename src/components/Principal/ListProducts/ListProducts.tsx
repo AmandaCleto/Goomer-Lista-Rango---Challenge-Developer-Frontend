@@ -1,7 +1,10 @@
 import React from 'react'
 
-import './ListProducts.css'
 import Products from './Products/Products'
+import DatailProducts from './Products/Details/DetailProduct'
+
+import './ListProducts.css'
+
 
 //interface
 export interface IRestaurant {
@@ -49,7 +52,7 @@ function ListProducts() {
     <div className="listProducts">
       {restaurantList.map((get) => {
         return (
-          <Products list={get} key={get.id} />
+          <Products detail={get} list={get} key={get.id}/>
         )
       })}
     </div>

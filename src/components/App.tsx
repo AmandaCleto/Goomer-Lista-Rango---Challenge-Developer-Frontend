@@ -1,10 +1,10 @@
 import React from 'react';
 
-import './Reset.css';
-import './App.css';
-
 import Header from './Header/Header'
 import Principal from './Principal/Principal'
+
+import './Reset.css';
+import './App.css';
 
 function App() {
   return (

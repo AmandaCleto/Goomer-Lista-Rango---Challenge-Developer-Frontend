@@ -1,11 +1,17 @@
 import React from 'react'
 
+import {Link} from 'react-router-dom'
+
+import DetailProduct from './Details/DetailProduct';
+import { IRestaurant } from '../ListProducts';
+
 import './Product.css'
 
-import { IRestaurant } from '../ListProducts';
+
 
 interface IProps {
 	list: IRestaurant;
+	detail: IRestaurant;
 }
 
 function Products(props: IProps) {
@@ -71,9 +77,14 @@ function Products(props: IProps) {
 			<div className="productText flex">
 				<h1 className="productName">{props.list.name}</h1>
 				<h2 className="productAddress">{props.list.address}</h2>
+
+				<Link to={`/detalhes/produto${props.list.id}`}>clique</Link>
+
+				
 			</div>
 		</div>
 	)
+	//<DetailProduct list2={props.list}/>
 }
 
 export default Products
